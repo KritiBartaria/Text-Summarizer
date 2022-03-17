@@ -6,9 +6,9 @@ The Code is written in Python 3.7. If you don't have Python installed you can fi
 pip install -r requirements.txt
 
 # URL to access tool 
-https://sumry-a-text-summarizer.herokuapp.com/![image](https://user-images.githubusercontent.com/22887799/158733325-7af8e740-f18e-421c-8e3d-71ab9fda4b21.png)
+https://sumry-a-text-summarizer.herokuapp.com/
 
 # Important files
-1. templates/'index_k.html' - Stores the HTML code 
-2. 'tf_idf_algorithm.py' - Consist of all the processing code to summarize the text
-3. 'app.py' - Is a flask app, which consist of the driver code to run 'tf_idf_algorithm.py'.
+1. 'tf_idf_algorithm.py' - Consist of all the processing code to summarize the text
+2. 'app.py' - Is a flask app, which consist of the driver code to run 'tf_idf_algorithm.py'
+3. 'index_k.html' - Present inside templates folder and stores the HTML code 
